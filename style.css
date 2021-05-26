@@ -1,12 +1,25 @@
-html, body {margin: 20px; padding: 0; text-align: left; background-color: #36393f;}
-a {text-decoration: none;}
-li {list-style-type: none;}
+html,
+body {
+	margin: 20px;
+	padding: 0;
+	text-align: left;
+	background-color: #36393f;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
 
 #logo {
 	transition: all 300ms;
 }
 
-h1, h2, h4 ,a {
+h1,
+h2,
+h4,
+a {
 	font-family: "Jost", sans-serif;
 	font-weight: 600;
 	color: #4e5d94;
@@ -22,7 +35,7 @@ p {
 	margin: 0px;
 	height: 2px;
 	width: 175px;
-	background: #23272a;
+	background: #42454A;
 	border: 0;
 	margin: 0;
 }
@@ -105,8 +118,7 @@ header h1 {
 .website_title {
 	font-size: 25px;
 }
-
-	#invitelink {
-		text-align: center;
-		margin-bottom: -25px;
-	}
+#invitelink {
+    text-align: center;
+    margin-bottom: -25px;
+}
