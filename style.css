@@ -121,4 +121,11 @@ header h1 {
 #invitelink {
     text-align: center;
     margin-bottom: -25px;
+	color:#7289da;
+}
+#invite_hr {
+	margin: 0;
+	height: 2px;
+	border: 0;
+	background: #42454A;
 }
