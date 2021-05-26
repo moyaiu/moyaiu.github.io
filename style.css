@@ -35,7 +35,7 @@ p {
 	margin: 0px;
 	height: 2px;
 	width: 175px;
-	background: #42454A;
+	background: #42454a;
 	border: 0;
 	margin: 0;
 }
@@ -44,9 +44,8 @@ p {
 	margin: 0;
 	height: 2px;
 	border: 0;
-	background: #42454A;
+	background: #42454a;
 }
-
 
 #cmds {
 	font-family: "Lato", sans-serif;
@@ -60,7 +59,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #292B2F;
+	background: #292b2f;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	z-index: 1;
 }
@@ -127,13 +126,19 @@ header h1 {
 	font-size: 25px;
 }
 #invitelink {
-    text-align: center;
-    margin-bottom: -25px;
-	color:#7289da;
+	text-align: center;
+	margin-bottom: -25px;
+	color: #7289da;
 }
 #invite_hr {
 	margin: 0;
 	height: 2px;
 	border: 0;
-	background: #42454A;
+	background: #42454a;
+}
+img.emoji {
+	height: 1em;
+	width: 1em;
+	margin: 0 0.05em 0 0.1em;
+	vertical-align: -0.1em;
 }
