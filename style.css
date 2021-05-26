@@ -27,7 +27,7 @@ hr {
 	margin: 0;
 }
 
-.cmds {
+#cmds {
 	font-family: "Lato", sans-serif;
 	color: #7289da;
 	font-weight: 600;
@@ -74,9 +74,15 @@ header nav ul li {
 	margin-right: 16px;
 }
 
+header nav ul {
+	margin-top: 10px;
+}
+
 header h1 {
+	text-align: left;
+	font-size: 25px;
 	margin-left: 85px;
-	margin-top: 9px;
+	margin-top: 13px;
 }
 
 #copyright {
@@ -84,7 +90,7 @@ header h1 {
 }
 
 #moyaiu_title {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 0px;
 	font-size: 150px;
 	text-align: center;
@@ -99,3 +105,8 @@ header h1 {
 .website_title {
 	font-size: 25px;
 }
+
+	#invitelink {
+		text-align: center;
+		margin-bottom: -25px;
+	}
