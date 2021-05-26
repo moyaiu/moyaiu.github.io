@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
 		<title>Moyaiu Bot</title>
+		<link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="shortcut icon" href="img/logo.png">
-		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Roboto&display=swap" rel="stylesheet"/>
-		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Roboto&display=swap" rel="stylesheet"/>
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
-		<script src="https://twemoji.maxcdn.com/v/13.0.2/twemoji.min.js" integrity="sha384-wyB/MspSJ/r2bT2kCj44qtsYRYlpzO2oAPhRj5myrWD63dt6qWv4x8AZe7Fl3K3b" crossorigin="anonymous"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+	    <script>
+        window.onload = function() {    
+            twemoji.parse(document.body, 
+                    {folder: 'svg', ext: '.svg'} // This is to specify to Twemoji to use SVGs and not PNGs
+            );
 
+        }
+
+    </script>
+    <style>
+        img.emoji {
+            width:1.5em;
+            pointer-events: none; 
+        }
+
+    </style>
+
+</head>
 	</head>
 
 	<body>
@@ -28,6 +50,8 @@
 					<li><a href="#home">HOME</a></li>
 					<li><a href="#about">ABOUT MOYAIU</a></li>
 					<li><a href="#cmds">COMMANDS</a></li>
+					<li><a href="#images">IMAGES</a></li>
+					<li><a href="https://discord.com/api/oauth2/authorize?client_id=800830711367467040&permissions=8&scope=bot%20applications.commands">INVITE</a>></a></li>
 				</ul>
 			</nav>
 			<h1>MOYAIU - All in one discord bot.</h1>
@@ -106,6 +130,13 @@
 				<li>/suggestion [something] - Suggest something</li>
 				<li>/embed - Create an embed</li>
 			</ul>
+		</section>
+		<section id = "images"> 
+			<h1 class="website_title">Images</h1>
+			<hr>
+			<h1>Filters</h1>
+			<img src="img/filters.png" alt="Filters">
+			<h1></h1>
 		</section>
 
 		<!----FOOTER------------------------------------------------------->
