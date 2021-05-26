@@ -114,14 +114,14 @@ header h1 {
 	margin-bottom: 0px;
 	font-size: 150px;
 	text-align: center;
-	font-family: DcTitle;
+	font-family: "DcTitle";
 }
 
 #moyaiu_subtitle {
 	font-size: 30px;
 	margin-top: 0px;
 	text-align: center;
-	font-family: DcTitle;
+	font-family: "DcTitle";
 }
 
 .website_title {
