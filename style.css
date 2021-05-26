@@ -40,6 +40,14 @@ p {
 	margin: 0;
 }
 
+#invite_hr {
+	margin: 0;
+	height: 2px;
+	border: 0;
+	background: #42454A;
+}
+
+
 #cmds {
 	font-family: "Lato", sans-serif;
 	color: #7289da;
