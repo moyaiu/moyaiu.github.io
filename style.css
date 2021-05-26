@@ -114,12 +114,14 @@ header h1 {
 	margin-bottom: 0px;
 	font-size: 150px;
 	text-align: center;
+	font-family: DcTitle;
 }
 
 #moyaiu_subtitle {
 	font-size: 30px;
 	margin-top: 0px;
 	text-align: center;
+	font-family: DcTitle;
 }
 
 .website_title {
@@ -129,6 +131,7 @@ header h1 {
 	text-align: center;
 	margin-bottom: -25px;
 	color: #7289da;
+	font-family: DcTitle;
 }
 #invite_hr {
 	margin: 0;
@@ -141,4 +144,16 @@ img.emoji {
 	width: 1em;
 	margin: 0 0.05em 0 0.1em;
 	vertical-align: -0.1em;
+}
+@font-face {
+	font-family: "DcTitle";
+	src: url("/fonts/title.woff2") format("woff2"), url("/fonts/title.woff") format("woff"), url("/fonts/title.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "text";
+	src: url("/fonts/text.woff2") format("woff2"), url("/fonts/text.woff") format("woff"), url("/fonts/text.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }
