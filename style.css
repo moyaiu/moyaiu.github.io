@@ -1,6 +1,6 @@
 html,
 body {
-	margin: 20px;
+	margin: 80px;
 	padding: 0;
 	text-align: left;
 	background-color: #36393f;
@@ -55,14 +55,13 @@ p {
 
 header {
 	width: 100%;
-	height: 65px;
+	height: 69px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	background: #292b2f;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	z-index: 1;
-	margin: 0;
 }
 
 #logo {
@@ -82,7 +81,8 @@ header {
 
 header nav {
 	float: right;
-	margin: 10px 50px 0 0;
+	margin: 10px 30px 0 0;
+	margin-top: 15px;
 }
 
 header nav ul li:hover {
@@ -92,7 +92,7 @@ header nav ul li:hover {
 header nav ul li {
 	transition: all 300ms;
 	float: left;
-	margin-right: 16px;
+	margin-left: 16px;
 }
 
 header nav ul {
@@ -112,9 +112,9 @@ header h1 {
 
 #moyaiu_title {
 	margin-top: 20px;
-	margin-bottom: 0px;
 	font-size: 150px;
 	text-align: center;
+	margin: 0px;
 	font-family: "DcTitle";
 }
 
@@ -148,13 +148,73 @@ img.emoji {
 }
 @font-face {
 	font-family: "DcTitle";
-	src: url("/fonts/title.woff2") format("woff2"), url("/fonts/title.woff") format("woff"), url("/fonts/title.ttf") format("truetype");
+	src: url("/fonts/title.woff2") format("woff2"), url("/fonts/title.woff") format("woff"),
+		url("/fonts/title.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: "text";
-	src: url("/fonts/text.woff2") format("woff2"), url("/fonts/text.woff") format("woff"), url("/fonts/text.ttf") format("truetype");
+	src: url("/fonts/text.woff2") format("woff2"), url("/fonts/text.woff") format("woff"),
+		url("/fonts/text.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
+}
+/*MEDIA QUERIES****************/
+/* tablet*/
+@media screen and (max-width: 1024px) {
+	header {
+		height: auto;
+	}
+	#logo {
+		margin-top: 5px;
+		width: 70px;
+	}
+	header h1 {
+		margin-top: 20px;
+	}
+	header nav {
+		margin-top: 30px;
+		font-size: 25px;
+	}
+	header nav ul li {
+		font-size: 20px;
+		margin-left: 20px;
+	}
+	#home h1 {
+		font-size: 150px;
+	}
+	#home h2 {
+		font-size: 150;
+	}
+	h3 {
+		padding-top: 3px;
+	}
+	#about p {
+		width: 80%;
+	}
+}
+
+/*MOBILES*/
+@media screen and (max-width: 480px) {
+	header {
+		height: auto;
+	}
+	#logo {
+		margin-top: 10px;
+		width: 90px;
+	}
+	header h1 {
+		margin-top: 243242340px;
+	}
+	header nav {
+		margin-top: 30px;
+		font-size: 60px;
+		float: none;
+		margin: 0;
+	}
+	header nav ul li {
+		font-size: 0px;
+		margin-left: 20px;
+	}
 }
