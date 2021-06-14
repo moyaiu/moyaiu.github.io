@@ -1,0 +1,11 @@
+{
+	"lang": "en-us",
+	"name": "Moyaiu Discord Bot",
+	"short_name": "Moyaiu",
+	"description": "The Best Discord Bot",
+	"start_url": "/",
+	"background_color": "#36393f",
+	"theme_color": "#36393f",
+	"orientation": "any",
+	"display": "standalone"
+}
