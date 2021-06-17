@@ -3,16 +3,16 @@
 	<head>
 		<title>Moyaiu</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" , with="device-width" , initial-scale="1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="manifest" href="./manifest.json" />
-		<script type="module" src="/pwabuilder-sw-register.js"></script>
 		<link rel="shortcut icon" type="image/png" href="img/logo.png" />
-
+		<script>
+			window.devicePixelRatio = 2
+		</script>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 
 		<link style="font-family: text" rel="stylesheet" />
 		<link style="font-family: text" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
 		<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 		<script>
 			window.onload = function () {
@@ -63,7 +63,7 @@
 			<h1 class="website_title" style="font-family: DcTitle">Features</h1>
 			<hr class="hrlol" />
 			<h2 style="font-family: DcTitle">The best music</h2>
-			<p>This bot has A LOT of music features. all for free. these include:</p>
+			<p style="font-family: text">This bot has A LOT of music features. all for free. these include:</p>
 			<li>- Music Filters</li>
 			<li>- Volume control for up to 500%</li>
 			<li>- No lag, 90% of the time (seriously)</li>
@@ -108,8 +108,7 @@
 
 			<ul>
 				<h4 style="font-family: DcTitle">Moderation Commands</h4>
-				<li>/nuke - Deletes all messages from the past 2 weeks in the current channel</li>
-				<li>/userclear [1-100] [@someone#1234] - Deletes messages from the user</li>
+				<li>/clear [1-100] - clear the chat</li>
 				<li>/slowmode [seconds] - Sets slowmode of the current channel</li>
 			</ul>
 
@@ -129,15 +128,15 @@
 				<li>/clearqueue - Clears the queue</li>
 				<li>/remove [queue number] - Removes a song from the queue</li>
 				<li>/back - Play the previous song</li>
+				<li>/autoplay - toggle youtube autoplay</li>
 			</ul>
 
 			<ul>
 				<h4 style="font-family: DcTitle">Misc Commands</h4>
 				<li>/serverinfo - Shows Serverinfo</li>
 				<li>/userinfo - Shows Userinfo</li>
-				<li>/server - Official server invite</li>
 				<li>/suggestion [something] - Suggest something</li>
-				<li>/embed - Create an embed</li>
+				<li></li>
 			</ul>
 		</section>
 		<section id="images">

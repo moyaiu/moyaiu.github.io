@@ -7,5 +7,11 @@
 	"background_color": "#36393f",
 	"theme_color": "#36393f",
 	"orientation": "any",
-	"display": "standalone"
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "./img/logo.png",
+			"sizes": "512x512"
+		}
+	]
 }
