@@ -191,3 +191,27 @@ img.emoji {
 		margin-left: 20px;
 	}
 }
+/**Scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #2e3338;
+	border-radius: 10px;
+	margin-right: 69px;
+	border: solid 3px #2e3338;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #202225;
+	border-radius: 9999px;
+}
+/**selection*/
+::selection {
+	background-color: #ffffff;
+}
