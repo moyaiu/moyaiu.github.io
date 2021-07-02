@@ -4,18 +4,18 @@
 		<title>Moyaiu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" , with="device-width" , initial-scale="1" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta prpoerty="og:url" content="https://moyaiu-inc.github.io" />
-		<meta prpoerty="og:name" content="Moyaiu Bot" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" SameSite="strict" />
+		<meta property="og:url" content="https://moyaiu-inc.github.io" />
+		<meta property="og:name" content="Moyaiu Bot" />
 		<meta
-			prpoerty="og:description"
+			property="og:description"
 			content="Moyiau is the best bot with regular Updates, best music, no paywalls and more!"
 		/>
 		<meta
-			poperty="og:image"
+			property="og:image"
 			content="https://cdn.discordapp.com/avatars/800830711367467040/95961e28cef08b325b5b4b45496276c9.webp?size=4096"
 		/>
-		<meta prpoerty="og:color" content="#7289da" />
+		<meta property="og:color" content="#7289da" />
 		<link rel="manifest" href="./manifest.json" />
 		<link rel="shortcut icon" type="image/png" href="img/logo.png" />
 		<script>
@@ -33,8 +33,17 @@
 		</script>
 		<style>
 			img.emoji {
-				width: 1.5em;
-				pointer-events: none;
+				display: -webkit-inline-box;
+				width: 1em;
+				min-width: 1em;
+				max-width: 1em;
+				height: 1em;
+				min-height: 1em;
+				max-height: 1em;
+				margin: 0 0.05em 0 0.1em;
+				vertical-align: -0.1em;
+				border: 0;
+				outline: 0;
 			}
 		</style>
 	</head>
@@ -62,10 +71,12 @@
 					</li>
 				</ul>
 			</nav>
+			<div>
+			</div>
 			<h1 style="pointer-events: none; font-family: DcTitle">MOYAIU - All in one discord bot</h1>
 		</header>
 
-		<!----HOME------------------------------------------------------->
+		<!--                 HOME               -->
 
 		<section id="home">
 			<h1 id="moyaiu_title" style="font-family: DcTitle">MOYAIU</h1>
@@ -88,16 +99,10 @@
 			<h1 class="website_title" style="font-family: DcTitle">About Moyaiu</h1>
 			<hr class="hrlol" />
 			<p>
-				Moyaiu started as a small project, just for fun. Now it's a bot in 70+ servers lmao. moyaiu is
+				Moyaiu started as a small project, just for fun. Now it's a bot in 50+ servers lmao. moyaiu is
 				developed by 1 idiot. Anyways, Moyaiu can do a lot of things like music and fun commands. Our goal
 				is making a bot that has many commands that normally are paied free.
 			</p>
-			<a href="https://discordbotlist.com/bots/800830711367467040"
-				><img src="https://discordbotlist.com/api/v1/bots/800830711367467040/widget"
-			/></a>
-			<a href="https://top.gg/bot/800830711367467040">
-				<img src="https://top.gg/api/widget/800830711367467040.svg" alt="Moyaiu on top.gg" />
-			</a>
 		</section>
 		<!---COMMANDS------------------------------------------------------->
 

@@ -159,7 +159,7 @@ img.emoji {
 		margin-left: 20px;
 	}
 	#home h1 {
-		font-size: 150px;
+		font-size: 160px;
 	}
 	#home h2 {
 		font-size: 150;
@@ -167,11 +167,14 @@ img.emoji {
 	h3 {
 		padding-top: 3px;
 	}
-	#about p {
-		width: 80%;
+	header a {
+		font-size: 30px;
+	}
+	header h1 {
 		font-size: 30px;
 	}
 }
+
 @media screen and (max-width: 480px) {
 	header {
 		height: auto;
@@ -189,6 +192,9 @@ img.emoji {
 	header nav ul li {
 		font-size: 0px;
 		margin-left: 20px;
+	}
+	p {
+		font-size: small;
 	}
 }
 
