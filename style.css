@@ -5,24 +5,32 @@ body {
 	text-align: left;
 	background-color: #36393f;
 }
+img.emoji {
+	cursor: text;
+	height: 1em;
+	width: 1em;
+	margin: 0 0.05em 0 0.1em;
+	vertical-align: -0.1em;
+}
 a {
 	text-decoration: none;
 }
 li {
 	list-style: disc;
+	font-family: "text", sans-serif;
 }
 #logo {
 	transition: all 300ms;
 }
 h1,
 h2,
-h4,
-a {
-	font-family: "text", sans-serif;
-	font-weight: 600;
+h4 {
+	font-family: "DcTitle", sans-serif;
+	font-weight: 500;
 	color: #7289da;
 }
-p {
+p,
+a {
 	font-family: "text", sans-serif;
 	color: #7289da;
 	font-weight: 600;
@@ -203,6 +211,7 @@ img.emoji {
 /* width */
 ::-webkit-scrollbar {
 	width: 9px;
+	max-height: 20px;
 }
 
 /* Track */
@@ -211,12 +220,14 @@ img.emoji {
 	border-radius: 10px;
 	margin-right: 69px;
 	border: solid 3px #2e3338;
+	max-height: 20px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #202225;
 	border-radius: 9999px;
+	max-height: 20px;
 }
 /**selection*/
 ::selection {
