@@ -12,9 +12,6 @@ img.emoji {
 	margin: 0 0.05em 0 0.1em;
 	vertical-align: -0.1em;
 }
-a {
-	text-decoration: none;
-}
 li {
 	list-style: disc;
 	font-family: "text", sans-serif;
@@ -29,8 +26,13 @@ h4 {
 	font-weight: 500;
 	color: #7289da;
 }
-p,
 a {
+	text-decoration: underline;
+	color: #7b95f1;
+	font-family: "text", sans-serif;
+	font-weight: 600;
+}
+p {
 	font-family: "text", sans-serif;
 	color: #7289da;
 	font-weight: 600;
@@ -48,6 +50,28 @@ a {
 	height: 2px;
 	border: 0;
 	background: #42454a;
+}
+.btn {
+	background-color: #7289da;
+	border-color: #7289da;
+	border-style: hidden;
+	height: 30px;
+	width: 100px;
+	transition: 100ms;
+	border-radius: 3px;
+	padding: 2px 16px;
+	text-rendering: optimizeSpeed;
+	font-family: "text", sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	color: #ffffff;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: #5c6fb1;
+	border-style: hidden;
+	transition: 200ms;
+	cursor: pointer;
 }
 #cmds {
 	font-family: "text", sans-serif;
