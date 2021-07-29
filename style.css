@@ -21,7 +21,9 @@ li {
 }
 h1,
 h2,
-h4 {
+h4,
+h5,
+h6 {
 	font-family: "DcTitle", sans-serif;
 	font-weight: 500;
 	color: #7289da;
@@ -35,7 +37,8 @@ a {
 p {
 	font-family: "text", sans-serif;
 	color: #7289da;
-	font-weight: 600;
+	font-weight: bold;
+	font-size: large;
 }
 .hrlol {
 	margin: 0px;
@@ -168,7 +171,7 @@ img.emoji {
 @font-face {
 	font-family: "text";
 	src: url("/fonts/text.woff2") format("woff2"), url("/fonts/text.woff") format("woff");
-	font-weight: normal;
+	font-weight: lighter;
 	font-style: normal;
 }
 @media screen and (max-width: 1024px) {
