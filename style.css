@@ -4,6 +4,10 @@ body {
 	padding: 0;
 	text-align: left;
 	background-color: #36393f;
+	text-rendering: optimizeSpeed;
+	image-rendering: optimizeSpeed;
+	shape-rendering: optimizeSpeed;
+	scroll-behavior: smooth;
 }
 img.emoji {
 	cursor: text;
@@ -27,6 +31,7 @@ h6 {
 	font-family: "DcTitle", sans-serif;
 	font-weight: 500;
 	color: #7289da;
+	text-rendering: optimizeSpeed;
 }
 a {
 	text-decoration: underline;
@@ -36,9 +41,9 @@ a {
 }
 p {
 	font-family: "text", sans-serif;
-	color: #7289da;
 	font-weight: bold;
 	font-size: large;
+	color: #7289da;
 }
 .hrlol {
 	margin: 0px;
@@ -56,22 +61,24 @@ p {
 }
 .btn {
 	background-color: #7289da;
-	border-color: #7289da;
 	border-style: hidden;
 	height: 30px;
 	width: 100px;
-	transition: 100ms;
-	border-radius: 3px;
+	transition: 150ms;
+	border-radius: 4px;
 	padding: 2px 16px;
-	text-rendering: optimizeSpeed;
 	font-family: "text", sans-serif;
 	font-weight: 500;
-	font-size: medium;
+	font-size: larger;
 	color: #ffffff;
 	text-decoration: none;
+	display: grid;
+	text-align: center;
+	font-size: larger;
+	opacity: 1;
 }
 .btn:hover {
-	background-color: #5c6fb1;
+	opacity: 0.7;
 	border-style: hidden;
 	transition: 200ms;
 	cursor: pointer;
@@ -88,7 +95,6 @@ header {
 	top: 0;
 	left: 0;
 	background: #292b2f;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	z-index: 1;
 }
 #logo {
@@ -208,28 +214,13 @@ img.emoji {
 	header h1 {
 		font-size: 30px;
 	}
-}
-
-@media screen and (max-width: 480px) {
-	header {
-		height: auto;
-	}
-	#logo {
-		margin-top: 10px;
-		width: 90px;
-	}
-	header nav {
-		margin-top: 30px;
-		font-size: 60px;
-		float: none;
-		margin: 0;
-	}
-	header nav ul li {
-		font-size: 0px;
-		margin-left: 20px;
-	}
-	p {
-		font-size: small;
+	html,
+	body {
+		margin: 77px;
+		padding: 0;
+		text-align: left;
+		background-color: #36393f;
+		text-rendering: optimizeSpeed;
 	}
 }
 
@@ -238,7 +229,6 @@ img.emoji {
 /* width */
 ::-webkit-scrollbar {
 	width: 9px;
-	max-height: 20px;
 }
 
 /* Track */
@@ -247,7 +237,7 @@ img.emoji {
 	border-radius: 10px;
 	margin-right: 69px;
 	border: solid 3px #2e3338;
-	max-height: 20px;
+	padding-right: 17px;
 }
 
 /* Handle */
@@ -255,6 +245,7 @@ img.emoji {
 	background: #202225;
 	border-radius: 9999px;
 	max-height: 20px;
+	padding-right: 17px;
 }
 /**selection*/
 ::selection {
