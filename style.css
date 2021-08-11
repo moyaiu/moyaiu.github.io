@@ -21,10 +21,11 @@ h2,
 h4,
 h5,
 h6 {
-	font-family: "" Uni Sans Heavy "", sans-serif;
+	font-family: "Uni Sans Heavy", sans-serif;
 	font-weight: 500;
 	color: #7289da;
 	text-rendering: optimizeSpeed;
+	font-size: larger;
 }
 a {
 	text-decoration: underline;
@@ -127,13 +128,14 @@ header h1 {
 #copyright {
 	text-align: center;
 }
-#moyaiu_title {
+.moyaiu_title {
 	margin-top: 20px;
 	font-size: 150px;
 	text-align: center;
 	margin: 0px;
 	font-family: "Uni Sans Heavy";
 }
+
 #moyaiu_subtitle {
 	font-size: 30px;
 	margin-top: 0px;
@@ -174,23 +176,60 @@ img.emoji {
 	font-style: normal;
 }
 @media screen and (max-width: 1024px) {
+	#moyaiu_subtitle {
+		font-size:30px;
+		margin-top: 0px;
+		text-align: center;
+		font-family: "Uni Sans Heavy";
+	}
+	.moyaiu_title {
+		font-size: 100px !important;
+		text-align: center;
+		font-family: "Uni Sans Heavy";
+		margin-top: 150px;
+	}
+
 	header {
+		width: 100% !important;
 		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: #292b2f;
+
+		font-size: 10px;
 	}
 	#logo {
 		margin-top: 5px;
-		width: 70px;
-	}
-	header h1 {
-		margin-top: 20px;
+		width: 50px;
 	}
 	header nav {
-		margin-top: 30px;
-		font-size: 25px;
+		float: right;
+		position: absolute;
+		margin: 13px;
+		margin-top: 1px;
+		margin-left: 50%;
+		font-size: 5px !important ;
+	}
+	header nav ul li:hover {
+		opacity: 0.5;
 	}
 	header nav ul li {
-		font-size: 20px;
-		margin-left: 20px;
+		transition: 300ms;
+		float: right;
+		margin-left: 16px;
+		font-size: 1px;
+	}
+	header nav ul {
+		margin-top: 5px;
+	}
+	header nav ul a {
+		font-size: 2000%;
+	}
+
+
+	#main-nav {
+		font-size: 10px;
 	}
 	#home h1 {
 		font-size: 160px;
@@ -201,19 +240,47 @@ img.emoji {
 	h3 {
 		padding-top: 3px;
 	}
+
 	header a {
 		font-size: 30px;
 	}
 	header h1 {
 		font-size: 30px;
 	}
+	h1 {
+		font-size: smaller;
+	}
+	p {
+		font-size: 20px;
+	}
 	html,
 	body {
-		margin: 77px;
+		margin: 3px;
 		padding: 0;
 		text-align: left;
 		background-color: #36393f;
 		text-rendering: optimizeSpeed;
+	}
+	.btn {
+		background-color: #7289da;
+		border-style: hidden;
+		height: 30px;
+		width: 100px;
+		transition: 150ms;
+		border-radius: 4px;
+		padding: 2px 16px;
+		font-family: "text", sans-serif;
+		font-weight: 500;
+		font-size: larger;
+		color: #ffffff;
+		text-decoration: none;
+		display: grid;
+		text-align: center;
+		font-size: larger;
+		opacity: 1;
+	}
+	a {
+		font-size: 20px;
 	}
 }
 
