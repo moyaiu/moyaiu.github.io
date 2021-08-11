@@ -21,7 +21,7 @@ h2,
 h4,
 h5,
 h6 {
-	font-family: "DcTitle", sans-serif;
+	font-family: "" Uni Sans Heavy "", sans-serif;
 	font-weight: 500;
 	color: #7289da;
 	text-rendering: optimizeSpeed;
@@ -132,13 +132,13 @@ header h1 {
 	font-size: 150px;
 	text-align: center;
 	margin: 0px;
-	font-family: "DcTitle";
+	font-family: "Uni Sans Heavy";
 }
 #moyaiu_subtitle {
 	font-size: 30px;
 	margin-top: 0px;
 	text-align: center;
-	font-family: "DcTitle";
+	font-family: "Uni Sans Heavy";
 }
 .website_title {
 	font-size: 25px;
@@ -147,7 +147,7 @@ header h1 {
 	text-align: center;
 	margin-bottom: -25px;
 	color: #7289da;
-	font-family: DcTitle;
+	font-family: "Uni Sans Heavy";
 }
 #invite_hr {
 	margin: 0;
@@ -162,7 +162,7 @@ img.emoji {
 	vertical-align: -0.1em;
 }
 @font-face {
-	font-family: "DcTitle";
+	font-family: "Uni Sans Heavy";
 	src: url("/fonts/title.woff2") format("woff2"), url("/fonts/title.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
