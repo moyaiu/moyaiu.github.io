@@ -151,12 +151,24 @@ header h1 {
 	color: #7289da;
 	font-family: "Uni Sans Heavy";
 }
+.hrlol {
+	margin: 0px;
+	height: 2px;
+	width: 175px;
+	background: #42454a;
+	border: 0;
+	margin: 0;
+}
 #invite_hr {
 	margin: 0;
 	height: 2px;
 	border: 0;
 	background: #42454a;
+}#inv {
+	margin-left: 30%;
+	background-color: #43b581;
 }
+
 img.emoji {
 	height: 1em;
 	width: 1em;
@@ -177,7 +189,7 @@ img.emoji {
 }
 @media screen and (max-width: 1024px) {
 	#moyaiu_subtitle {
-		font-size:30px;
+		font-size: 30px;
 		margin-top: 0px;
 		text-align: center;
 		font-family: "Uni Sans Heavy";
@@ -203,6 +215,10 @@ img.emoji {
 		margin-top: 5px;
 		width: 50px;
 	}
+	#inv {
+	margin-left: 10%;
+	background-color: #43b581;
+}
 	header nav {
 		float: right;
 		position: absolute;
@@ -226,7 +242,6 @@ img.emoji {
 	header nav ul a {
 		font-size: 2000%;
 	}
-
 
 	#main-nav {
 		font-size: 10px;
@@ -257,7 +272,7 @@ img.emoji {
 	body {
 		margin: 3px;
 		padding: 0;
-		text-align: left;
+		text-align: center;
 		background-color: #36393f;
 		text-rendering: optimizeSpeed;
 	}
@@ -274,7 +289,7 @@ img.emoji {
 		font-size: larger;
 		color: #ffffff;
 		text-decoration: none;
-		display: grid;
+		display: block;
 		text-align: center;
 		font-size: larger;
 		opacity: 1;
