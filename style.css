@@ -3,16 +3,16 @@
 	--green: #43b581;
 	--gray: #4f545c;
 }
+/* Main */
 html,
 body {
 	margin: 80px;
 	padding: 0;
 	text-align: left;
 	background-color: #36393f;
-	text-rendering: optimizeSpeed;
-	image-rendering: optimizeSpeed;
-	shape-rendering: optimizeSpeed;
 	scroll-behavior: smooth;
+	image-rendering: optimizeQuality;
+	shape-rendering: geometricPrecision;
 }
 li {
 	list-style: disc;
@@ -35,13 +35,16 @@ h6 {
 a {
 	color: #7b95f1;
 	font-family: "text", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
+	text-decoration: none;
 }
-p,li {
-	font-family: "text", sans-serif;
-	font-weight: bold;
+p,
+li {
+	font-family: "text2", sans-serif;
 	font-size: large;
-	color: var(--blurple);
+	color: #dcddde;
+	text-decoration: none;
+	word-break: break-word;
 }
 .hrlol {
 	margin: 0px;
@@ -57,6 +60,12 @@ p,li {
 	border: 0;
 	background: #42454a;
 }
+#cmds {
+	font-family: "text2", sans-serif;
+	color: #7289da;
+	font-weight: 500;
+}
+/* Buttons*/
 .btn {
 	background-color: var(--blurple);
 	border-style: hidden;
@@ -65,7 +74,7 @@ p,li {
 	transition: 300ms;
 	border-radius: 4px;
 	padding: 2px 16px;
-	font-family: "text", sans-serif;
+	font-family: "text3", sans-serif;
 	font-weight: 500;
 	font-size: larger;
 	color: #ffffff;
@@ -88,11 +97,8 @@ p,li {
 	opacity: 1;
 	background-color: #5d6269;
 }
-#cmds {
-	font-family: "text", sans-serif;
-	color: #7289da;
-	font-weight: 600;
-}
+
+/* Header */
 header {
 	width: 100%;
 	height: 69px;
@@ -136,6 +142,7 @@ header h1 {
 	margin-left: 85px;
 	margin-top: 18px;
 }
+/* Main*/
 #copyright {
 	text-align: center;
 }
@@ -180,13 +187,15 @@ header h1 {
 	margin-left: 30%;
 	background-color: var(--green);
 }
-
+/* Emotes */
 img.emoji {
 	height: 1em;
 	width: 1em;
 	margin: 0 0.05em 0 0.1em;
 	vertical-align: -0.1em;
+	cursor: text;
 }
+/* Fonts*/
 @font-face {
 	font-family: "Uni Sans Heavy";
 	src: url("/fonts/title.woff2") format("woff2"), url("/fonts/title.woff") format("woff");
@@ -195,10 +204,29 @@ img.emoji {
 }
 @font-face {
 	font-family: "text";
-	src: url("/fonts/text.woff2") format("woff2"), url("/fonts/text.woff") format("woff");
-	font-weight: lighter;
+	src: url("./fonts/text.woff") format("woff");
+	font-weight: 100;
 	font-style: normal;
 }
+@font-face {
+	font-family: "text2";
+	src: url("./fonts/text2.woff") format("woff");
+	font-style: normal;
+	font-weight: bolder;
+}
+@font-face {
+	font-family: "text3";
+	src: url("./fonts/text3.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "text4";
+	src: url("./fonts/text4.woff") format("woff");
+	font-weight: bolder;
+	font-style: normal;
+}
+/* Responsive*/
 @media screen and (max-width: 1024px) {
 	#moyaiu_subtitle {
 		font-size: 30px;
@@ -257,6 +285,7 @@ img.emoji {
 
 	#main-nav {
 		font-size: 10px;
+		text-decoration: none;
 	}
 	#home h1 {
 		font-size: 160px;
@@ -296,7 +325,7 @@ img.emoji {
 		transition: 150ms;
 		border-radius: 4px;
 		padding: 2px 16px;
-		font-family: "text", sans-serif;
+		font-family: "text3", sans-serif;
 		font-weight: 500;
 		font-size: larger;
 		color: #ffffff;
