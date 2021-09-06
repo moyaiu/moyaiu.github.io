@@ -1,17 +1,1 @@
-{
-	"lang": "en-us",
-	"name": "Moyaiu Discord Bot",
-	"short_name": "Moyaiu",
-	"description": "The Best Discord Bot",
-	"start_url": "/",
-	"background_color": "#36393f",
-	"theme_color": "#292B2F",
-	"orientation": "any",
-	"display": "standalone",
-	"icons": [
-		{
-			"src": "/img/logo.png",
-			"sizes": "512x512"
-		}
-	]
-}
+{"lang":"en-us","name":"Moyaiu Discord Bot","short_name":"Moyaiu","description":"The Best Discord Bot","start_url":"/","background_color":"#36393f","theme_color":"#292B2F","orientation":"any","display":"standalone","icons":[{"src":"/img/logo.png","sizes":"512x512"}]}

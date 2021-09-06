@@ -85,15 +85,21 @@ li {
 	opacity: 1;
 }
 .btn:hover {
-	opacity: 0.7;
 	border-style: hidden;
 	transition: 200ms;
 	cursor: pointer;
+	background-color: #5C6FB1;
 }
-#featbtn {
+#greenbtn{
+	background-color: var(--green);
+}
+#greenbtn:hover{
+	background-color: #3CA374;
+}
+#graybtn {
 	background-color: var(--gray);
 }
-#featbtn:hover {
+#graybtn:hover {
 	opacity: 1;
 	background-color: #5d6269;
 }
@@ -183,10 +189,7 @@ header h1 {
 	border: 0;
 	background: #42454a;
 }
-#inv {
-	margin-left: 30%;
-	background-color: var(--green);
-}
+
 /* Emotes */
 img.emoji {
 	height: 1em;
@@ -255,7 +258,7 @@ img.emoji {
 		margin-top: 5px;
 		width: 50px;
 	}
-	#inv {
+	#greenbtn {
 		margin-left: 10%;
 		background-color: var(--green);
 	}
