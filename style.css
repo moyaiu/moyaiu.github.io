@@ -6,20 +6,21 @@
 /* Main */
 html,
 body {
-	margin: 80px;
-	padding: 0;
+	padding: 80px 80px 0px 80px;
 	text-align: left;
 	background-color: #36393f;
 	scroll-behavior: smooth;
 	image-rendering: optimizeQuality;
 	shape-rendering: geometricPrecision;
+	margin-bottom: 0px;
 }
+
 li {
 	list-style: disc;
 	font-family: "text", sans-serif;
 }
 #logo {
-	transition: .2s;
+	transition: 0.2s;
 }
 h1,
 h2,
@@ -33,7 +34,7 @@ h6 {
 }
 a {
 	color: #7b95f1;
-	font-family: "text", sans-serif;
+	font-family: "text2", sans-serif;
 	font-weight: 500;
 	text-decoration: none;
 }
@@ -70,7 +71,7 @@ li {
 	border-style: hidden;
 	height: 30px;
 	width: 100px;
-	transition: .2s;
+	transition: 0.2s;
 	border-radius: 4px;
 	padding: 2px 16px;
 	font-family: "text3", sans-serif;
@@ -85,15 +86,15 @@ li {
 }
 .btn:hover {
 	border-style: hidden;
-	transition: .2s;
+	transition: 0.2s;
 	cursor: pointer;
-	background-color: #5C6FB1;
+	background-color: #5c6fb1;
 }
-#greenbtn{
+#greenbtn {
 	background-color: var(--green);
 }
-#greenbtn:hover{
-	background-color: #3CA374;
+#greenbtn:hover {
+	background-color: #3ca374;
 }
 #graybtn {
 	background-color: var(--gray);
@@ -134,7 +135,7 @@ header nav ul li:hover {
 	opacity: 0.8;
 }
 header nav ul li {
-	transition: .2s;
+	transition: 0.2s;
 	float: left;
 	margin-left: 16px;
 }
@@ -273,7 +274,7 @@ img.emoji {
 		opacity: 0.5;
 	}
 	header nav ul li {
-		transition: .2s;
+		transition: 0.2s;
 		float: right;
 		margin-left: 16px;
 		font-size: 1px;
@@ -324,7 +325,7 @@ img.emoji {
 		border-style: hidden;
 		height: 30px;
 		width: 100px;
-		transition: .2s;
+		transition: 0.2s;
 		border-radius: 4px;
 		padding: 2px 16px;
 		font-family: "text3", sans-serif;
