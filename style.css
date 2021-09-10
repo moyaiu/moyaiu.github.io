@@ -2,6 +2,7 @@
 	--blurple: #7289da;
 	--green: #43b581;
 	--gray: #4f545c;
+	--red: #f04747;
 }
 /* Main */
 html,
@@ -103,6 +104,12 @@ li {
 	opacity: 1;
 	background-color: #5d6269;
 }
+#redbtn {
+	background-color: var(--red);
+}
+#redbtn:hover {
+	background-color: #c03537;
+}
 
 /* Header */
 header {
@@ -120,7 +127,7 @@ header {
 	margin: 5px 0 0 25px;
 }
 #logo:hover {
-	opacity: 0.5;
+	opacity: 0.8;
 }
 #logo img {
 	margin-top: 2px;
