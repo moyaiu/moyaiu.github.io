@@ -89,13 +89,23 @@ li {
 	border-style: hidden;
 	transition: 0.2s;
 	cursor: pointer;
-	background-color: #5c6fb1;
+	background-color: #677bc4;
+}
+
+.btn:active {
+	border-style: hidden;
+	transition: 0.2s;
+	cursor: pointer;
+	background-color: #5b6eae;
 }
 #greenbtn {
 	background-color: var(--green);
 }
 #greenbtn:hover {
 	background-color: #3ca374;
+}
+#greenbtn:active {
+	background-color: #369167;
 }
 #graybtn {
 	background-color: var(--gray);
@@ -104,11 +114,17 @@ li {
 	opacity: 1;
 	background-color: #5d6269;
 }
+#graybtn:active {
+	background-color: #72767D;
+}
 #redbtn {
 	background-color: var(--red);
 }
 #redbtn:hover {
-	background-color: #c03537;
+	background-color: #d84040;
+}
+#redbtn:active {
+	background-color: #c03939;
 }
 
 /* Header */
