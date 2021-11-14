@@ -15,7 +15,9 @@ body {
 	shape-rendering: geometricPrecision;
 	margin-bottom: 0px;
 }
-
+.buttonContainer{
+	width: 1px;
+}
 li {
 	list-style: disc;
 	font-family: "text", sans-serif;
@@ -115,7 +117,7 @@ li {
 	background-color: #5d6269;
 }
 #graybtn:active {
-	background-color: #72767D;
+	background-color: #72767d;
 }
 #redbtn {
 	background-color: var(--red);
@@ -136,6 +138,7 @@ header {
 	left: 0;
 	background: #292b2f;
 	z-index: 1;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(32, 34, 37, 0.6);
 }
 #logo {
 	width: 50px;
@@ -212,7 +215,58 @@ header h1 {
 	border: 0;
 	background: #42454a;
 }
-
+.sizeTiny-EgeIrh {
+	width: 52px;
+	height: 24px;
+	min-width: 52px;
+	min-height: 24px;
+}
+.sizeSmall {
+	width: 60px;
+	height: 32px;
+	min-width: 60px;
+	min-height: 32px;
+}
+.sizeMedium {
+	width: 96px;
+	height: 38px;
+	min-width: 96px;
+	min-height: 38px;
+	text-align: center;
+	justify-content: center;
+}
+.sizeLarge {
+	width: 130px;
+	height: 44px;
+	min-width: 130px;
+	min-height: 44px;
+}
+.sizeXlarge-2yFAlZ {
+	width: 148px;
+	height: 50px;
+	min-width: 148px;
+	min-height: 50px;
+	font-size: 16px;
+	line-height: normal;
+	padding: 2px 20px;
+}
+.sizeMin-1mJd1x {
+	display: inline;
+	width: auto;
+	height: auto;
+	padding: 2px 4px;
+}
+.sizeMax-1Mj0eU {
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 16px;
+}
+.servers {
+	height: 900px;
+	width: 50px;
+}
 /* Emotes */
 img.emoji {
 	height: 1em;
@@ -250,6 +304,18 @@ img.emoji {
 	font-family: "text4";
 	src: url("./fonts/text4.woff") format("woff");
 	font-weight: bolder;
+	font-style: normal;
+}
+@font-face {
+	font-family: "whitney semibold";
+	src: url("./fonts/whitney\ semibold.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "whitney medium";
+	src: url("./fonts/whitney\ medium.woff") format("woff");
+	font-weight: 600;
 	font-style: normal;
 }
 /* Responsive*/

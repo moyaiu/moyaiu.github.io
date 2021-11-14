@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Moyaiu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content=" width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" SameSite="strict" />
+		<meta property="og:url" content="https://moyaiu.github.io/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_title" content="Moyaiu" />
+		<meta name="description" content="The official website for moyaiu, the discord bot." />
+		<meta property="og:title" content="Moyaiu Bot" />
+		<meta property="og:description" content="It's time to ditch MEE6" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:image" content="/img/moyaiu spooky.png" />
+		<meta property="og:color" content="#7289da" />
+		<link rel="manifest" href="./manifest.json" />
+		<link rel="shortcut icon" type="image/png" href="img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link style="font-family: text" rel="stylesheet" />
+		<link style="font-family: text" rel="stylesheet" />
+		<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+		<script>
+			window.onload = function () {
+				twemoji.parse(document.body, { folder: "svg", ext: ".svg" })
+			}
+		</script>
+		<style>
+			html,
+			body {
+				margin: 0;
+				padding: 0 !important;
+			}
+			.servers {
+				float: left;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+			.serverlist {
+				background-color: #202225;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="logo">
+				<a href="/"><img src="/img/logo.png" alt="Moyaiu Logo" style="border-radius: 50%" /></a>
+			</div>
+			<nav id="main-nav">
+				<ul>
+					<li style="list-style: none"><a href="/news" style="font-family: Uni Sans Heavy">NEWS</a></li>
+					<li style="list-style: none">
+						<a href="https://discord.gg/jsmDKRBq5b" style="font-family: Uni Sans Heavy">Support</a>
+					</li>
+					<li style="list-style: none">
+						<a
+							href="https://discord.com/api/oauth2/authorize?client_id=800830711367467040&permissions=8&scope=bot%20applications.commands"
+							style="font-family: Uni Sans Heavy; color: var(--green) !important"
+							>INVITE</a
+						>
+					</li>
+				</ul>
+			</nav>
+
+			<h1 style="pointer-events: none; font-family: Uni Sans Heavy">MOYAIzon</h1>
+		</header>
+		<section id="home">
+			<h1 class="moyaiu_title" style="margin-top: 5%; font-size: 40px">MOYAIzon</h1>
+		</section>
+		<audio style="width: 500px;"src="./audio/moyaizon.mp3" autoplay preload="auto" loop>Your browser doesnt support audio :(</audio>
+	</body>
+</html>
