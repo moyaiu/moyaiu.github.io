@@ -1,21 +1,28 @@
+
+
 :root {
 	--blurple: #7289da;
 	--green: #43b581;
 	--gray: #4f545c;
 	--red: #f04747;
 }
+
 /* Main */
 html,
 body {
-	padding: 80px 80px 0px 80px;
-	text-align: left;
+	text-align: center;
 	background-color: #36393f;
 	scroll-behavior: smooth;
 	image-rendering: optimizeQuality;
 	shape-rendering: geometricPrecision;
-	margin-bottom: 0px;
+	margin-top: 70px;
+	align-content: center;
+	align-items: center;
 }
-.buttonContainer{
+button {
+	margin-left: 650px
+}
+.buttonContainer {
 	width: 1px;
 }
 li {
@@ -57,7 +64,7 @@ li {
 	border: 0;
 	margin: 0;
 }
-#invite_hr {
+#defaultSep {
 	margin: 0;
 	height: 2px;
 	border: 0;
@@ -209,7 +216,7 @@ header h1 {
 	border: 0;
 	margin: 0;
 }
-#invite_hr {
+#defaultSep {
 	margin: 0;
 	height: 2px;
 	border: 0;
@@ -278,7 +285,8 @@ img.emoji {
 /* Fonts*/
 @font-face {
 	font-family: "Uni Sans Heavy";
-	src: url("/fonts/title.woff2") format("woff2"), url("/fonts/title.woff") format("woff");
+	src: url("/fonts/title.woff2") format("woff2"),
+		url("/fonts/title.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }

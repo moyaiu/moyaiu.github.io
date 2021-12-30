@@ -4,25 +4,31 @@
 		<title>Moyaiu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content=" width=device-width, initial-scale=1" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" SameSite="strict" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+			SameSite="strict"
+		/>
 		<meta property="og:url" content="https://moyaiu.github.io/" />
 		<meta property="og:type" content="website" />
-		<meta property="og:site_title" content="Moyaiu" />
-		<meta name="description" content="The official website for moyaiu, the discord bot." />
-		<meta property="og:title" content="Moyaiu Bot" />
-		<meta property="og:description" content="It's time to ditch MEE6" />
-		<meta property="og:locale" content="en_US" />
 		<meta
-			property="og:image"
-			content="https://cdn.discordapp.com/avatars/800830711367467040/95961e28cef08b325b5b4b45496276c9.webp?size=4096"
+			name="description"
+			content="The official website for moyaiu, the discord bot."
 		/>
+		<meta property="og:title" content="Moyaiu Bot" />
+		<meta property="og:description" content="the greatest stone" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:image" content="/img/logo" />
 		<meta property="og:color" content="#7289da" />
 		<link rel="manifest" href="./manifest.json" />
 		<link rel="shortcut icon" type="image/png" href="img/logo.png" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<link style="font-family: text" rel="stylesheet" />
 		<link style="font-family: text" rel="stylesheet" />
-		<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+		<script
+			src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+			crossorigin="anonymous"
+		></script>
 		<script>
 			window.onload = function () {
 				twemoji.parse(document.body, { folder: "svg", ext: ".svg" })
@@ -36,60 +42,90 @@
 			</div>
 			<nav id="main-nav">
 				<ul>
-					<li style="list-style: none"><a href="/news" style="font-family: Uni Sans Heavy">NEWS</a></li>
 					<li style="list-style: none">
-						<a href="https://discord.gg/jsmDKRBq5b" style="font-family: Uni Sans Heavy">Support</a>
+						<a href="/news" style="font-family: Uni Sans Heavy"
+							>NEWS</a
+						>
 					</li>
 					<li style="list-style: none">
 						<a
-							href="https://discord.com/api/oauth2/authorize?client_id=800830711367467040&permissions=8&scope=bot%20applications.commands"
+							href="https://discord.gg/jsmDKRBq5b"
+							style="font-family: Uni Sans Heavy"
+							>Support</a
+						>
+					</li>
+					<li style="list-style: none">
+						<a
+							href="https://canary.discord.com/api/oauth2/authorize?client_id=919123280705757204&permissions=8&scope=bot%20applications.commands"
 							style="font-family: Uni Sans Heavy; color: #43b581"
 							>INVITE</a
 						>
 					</li>
 				</ul>
 			</nav>
-			<h1 style="pointer-events: none; font-family: Uni Sans Heavy">MOYAIU</h1>
+			<h1 style="pointer-events: none; font-family: Uni Sans Heavy">
+				MOYAIU
+			</h1>
 		</header>
 		<section id="home">
-			<h1 class="moyaiu_title" style="font-family: Uni Sans Heavy">MOYAIU</h1>
-			<h2 id="moyaiu_subtitle" style="font-family: Uni Sans Heavy">its time to ditch mee6</h2>
+			<h1 class="moyaiu_title" style="font-family: Uni Sans Heavy">
+				MOYAIU
+			</h1>
+			<h2 id="moyaiu_subtitle" style="font-family: Uni Sans Heavy">
+				the greatest stone
+			</h2>
 		</section>
 		<a
 			class="btn"
 			id="greenbtn"
-			style="margin-left: 20%; top: 32px; position: relative"
-			href="https://discord.com/api/oauth2/authorize?client_id=800830711367467040&permissions=8&scope=bot%20applications.commands"
+			style="margin-left: 30%; top: 32px; position: relative"
+			href="https://canary.discord.com/api/oauth2/authorize?client_id=919123280705757204&permissions=8&scope=bot%20applications.commands"
 			>Invite</a
-		><a class="btn" id="graybtn" style="margin-left: 60%; bottom: 34px" href="#cmds">Features</a>
+		><a
+			class="btn"
+			id="graybtn"
+			style="margin-left: 60%; bottom: 34px"
+			href="#cmds"
+			>Features</a
+		>
 		<div class="ad">
 			<p>✅Fun Commands</p>
 			<p>✅Music</p>
 			<p>✅Level System</p>
 			<p>✅Slash Commands</p>
 			<p>✅Moyai</p>
+			<p>✅Unique Stuff</p>
 			<p>❌Paywalls/Premium</p>
 		</div>
 		<br /><br /><br /><br /><br />
 		<section id="cmds">
-			<h1 class="website_title" style="font-family: Uni Sans Heavy">Features</h1>
-			<hr class="hrlol" />
+			<h1 class="website_title" style="font-family: Uni Sans Heavy">
+				Features
+			</h1>
+			<hr id="defaultSep" />
 			<h2 style="font-family: Uni Sans Heavy">music</h2>
 			<li>Music Filters</li>
 			<li>Volume control up to 500%</li>
-			<li>No lag</li>
+			<li>Minimal lag</li>
+			<br />
 		</section>
-		<hr id="invite_hr" />
+		<hr id="defaultSep" />
 		<section id="about"></section>
 		<section id="cmds">
-			<h1 class="website_title" style="font-family: Uni Sans Heavy">Commands</h1>
+			<h1 class="website_title" style="font-family: Uni Sans Heavy">
+				Commands
+			</h1>
 			<h3 style="font-family: Uni Sans Heavy">Music</h3>
 			<p>
-				autoplay, back, clear-queue, filter, leave, loop, nowplaying, pause, play, queue, remove, resume,
-				seek, skip, stop, volume
+				autoplay, back, clear-queue, filter, leave, loop, musicsearch,
+				nowplaying, pause, play, queue, remove, resume, seek, skip,
+				stop, volume
 			</p>
 			<h3 style="font-family: Uni Sans Heavy">Fun</h3>
-			<p>8ball, activity, dumb, eject, gamer, hack, moyairate, penis, randommoyai, say, sussyrate, tell</p>
+			<p>
+				8ball, dumb, eject, gamer, hack, penis, say, sussyrate, tell,
+				socialcredit
+			</p>
 			<h3 style="font-family: Uni Sans Heavy">Misc</h3>
 			<p>avatar, help, info, invite, server, suggestion, vote</p>
 			<h3 style="font-family: Uni Sans Heavy">Moderation</h3>
@@ -97,27 +133,33 @@
 			<h3 style="font-family: Uni Sans Heavy">Level</h3>
 			<p>leaderboard, rank, setlevel</p>
 		</section>
-		<hr id="invite_hr" />
+		<hr id="defaultSep" />
 		<section id="cmds">
-			<h1 class="website_title" style="font-family: Uni Sans Heavy">Filters</h1>
+			<h1 class="website_title" style="font-family: Uni Sans Heavy">
+				Filters
+			</h1>
 			<p>
-				8D, Haas, Treble, Vibrato, Karaoke, Mcompand, Subboost, Vaporwave, Daycore, Surrounding, Compressor,
-				Softlimiter, Chorus2d, Fadein, Ultrabass, Echo, Earrape, ​ Gate, Phaser, Tremolo, Reverse, Flanger,
-				Pulsator, Bassboost, Nightcore, Normalizer, Mono, Expander, Chorus, Chorus3d, 3D, High, Robot
+				8D, Haas, Treble, Vibrato, Karaoke, Mcompand, Subboost,
+				Vaporwave, Daycore, Surrounding, Compressor, Softlimiter,
+				Chorus2d, Fadein, Ultrabass, Echo, Earrape, Gate, Phaser,
+				Tremolo, Reverse, Flanger, Pulsator, Bassboost, Nightcore,
+				Normalizer, Mono, Expander, Chorus, Chorus3d, 3D, High, Robot
 			</p>
 		</section>
-		<hr id="invite_hr" />
-		<h1 class="website_title" style="font-family: Uni Sans Heavy">dont be a broom, use moyaiu</h1>
+		<hr id="defaultSep" />
+		<h1 class="website_title" style="font-family: Uni Sans Heavy">
+			become moyai
+		</h1>
 		<div class="buttonContainer">
 			<a
 				class="inviteLink"
-				href="https://discord.com/api/oauth2/authorize?client_id=800830711367467040&permissions=8&scope=bot%20applications.commands"
+				href="https://canary.discord.com/api/oauth2/authorize?client_id=919123280705757204&permissions=8&scope=bot%20applications.commands"
 			>
 				<button
 					type="button"
 					class="btn sizeMedium"
 					id="greenbtn"
-					href="https://discord.com/api/oauth2/authorize?client_id=800830711367467040&permissions=8&scope=bot%20applications.commands"
+					href="https://canary.discord.com/api/oauth2/authorize?client_id=919123280705757204&permissions=8&scope=bot%20applications.commands"
 				>
 					Invite
 				</button>
@@ -127,7 +169,6 @@
 		<br />
 		<br />
 		<footer>
-			<button type="button">hi</button>
 			<style>
 				footer {
 					background-color: #292b2f;
@@ -147,7 +188,9 @@
 			<li style="list-style: none; text-align: center">
 				<a href="https://github.com/moyaiu/moyaiu-game">Moyaiu Game</a>
 			</li>
-			<p id="copyright" style="pointer-events: none">&copy; 2021 - Moyaiu Inc.</p>
+			<p id="copyright" style="pointer-events: none">
+				&copy; 2021 - Moyaiu Inc.
+			</p>
 		</footer>
 	</body>
 </html>
