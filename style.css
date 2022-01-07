@@ -1,5 +1,3 @@
-
-
 :root {
 	--blurple: #7289da;
 	--green: #43b581;
@@ -20,7 +18,7 @@ body {
 	align-items: center;
 }
 button {
-	margin-left: 650px
+	margin-left: 650px;
 }
 .buttonContainer {
 	width: 1px;
@@ -37,7 +35,7 @@ h2,
 h4,
 h5,
 h6 {
-	font-family: "Uni Sans Heavy", sans-serif;
+	font-family: "discord", sans-serif;
 	font-weight: 500;
 	color: #7289da;
 	text-rendering: optimizeSpeed;
@@ -190,14 +188,14 @@ header h1 {
 	font-size: 150px;
 	text-align: center;
 	margin: 0px;
-	font-family: "Uni Sans Heavy";
+	font-family: "discord";
 }
 
 #moyaiu_subtitle {
 	font-size: 30px;
 	margin-top: 0px;
 	text-align: center;
-	font-family: "Uni Sans Heavy";
+	font-family: "discord";
 }
 .website_title {
 	font-size: 25px;
@@ -206,7 +204,7 @@ header h1 {
 	text-align: center;
 	margin-bottom: -25px;
 	color: var(--blurple);
-	font-family: "Uni Sans Heavy";
+	font-family: "discord";
 }
 .hrlol {
 	margin: 0px;
@@ -284,6 +282,14 @@ img.emoji {
 }
 /* Fonts*/
 @font-face {
+    font-family: "discord";
+	src: url("/fonts/discord.woff2") format("woff2"),
+	url("/fonts/discord.woff") format("woff");
+	font-weight: normal;
+
+	font-style: normal;
+}
+@font-face {
 	font-family: "Uni Sans Heavy";
 	src: url("/fonts/title.woff2") format("woff2"),
 		url("/fonts/title.woff") format("woff");
@@ -332,12 +338,12 @@ img.emoji {
 		font-size: 30px;
 		margin-top: 0px;
 		text-align: center;
-		font-family: "Uni Sans Heavy";
+		font-family: "discord";
 	}
 	.moyaiu_title {
 		font-size: 99px !important;
 		text-align: center;
-		font-family: "Uni Sans Heavy";
+		font-family: "discord";
 		margin-top: 150px;
 	}
 
