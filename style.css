@@ -8,15 +8,17 @@
 /* Main */
 html,
 body {
-	text-align: center;
 	background-color: #36393f;
 	scroll-behavior: smooth;
-	image-rendering: optimizeQuality;
-	shape-rendering: geometricPrecision;
 	margin-top: 70px;
 	align-content: center;
 	align-items: center;
+	vertical-align: baseline;
+	text-align: justify;
+	justify-items: center;
+	text-justify: distribute-all-lines;
 }
+
 button {
 	margin-left: 650px;
 }
@@ -32,13 +34,16 @@ li {
 }
 h1,
 h2,
-h3
+h3,
 h4,
 h5,
 h6 {
-	font-family: "discord", sans-serif;
+	font-family: "discord";
 	color: #7289da;
 	font-weight: 100;
+	text-align: center;
+
+	justify-content: center;
 }
 a {
 	color: #7b95f1;
@@ -291,7 +296,6 @@ img.emoji {
 }
 * {
 	font-weight: 100;
-
 }
 @font-face {
 	font-family: "Uni Sans Heavy";
@@ -476,5 +480,9 @@ img.emoji {
 }
 /**selection*/
 ::selection {
-	background-color: #ffffff;
+	background-color: #7289da;
+	color: #fff
+}
+strong {
+	font-weight: 600;
 }

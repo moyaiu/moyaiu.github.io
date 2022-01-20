@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Moyaiu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content=" width=device-width, initial-scale=1" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+			SameSite="strict"
+		/>
+		<meta property="og:url" content="https://moyaiu.github.io/" />
+		<meta property="og:type" content="website" />
+		<meta
+			name="description"
+			content="The official website for moyaiu, the discord bot."
+		/>
+		<meta property="og:title" content="Moyaiu Bot" />
+		<meta property="og:description" content="the greatest stone" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:image" content="/img/logo" />
+		<meta property="og:color" content="#7289da" />
+		<link rel="manifest" href="./manifest.json" />
+		<link rel="shortcut icon" type="image/png" href="img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link style="font-family: text" rel="stylesheet" />
+		<link style="font-family: text" rel="stylesheet" />
+		<script
+			src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+			crossorigin="anonymous"
+		></script>
+		<script>
+			window.onload = function () {
+				twemoji.parse(document.body, { folder: "svg", ext: ".svg" })
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<div id="logo">
+				<a href="/"><img src="/img/logo.png" alt="Moyaiu Logo" /></a>
+			</div>
+			<nav id="main-nav">
+				<ul>
+					<li style="list-style: none">
+						<a href="/news" style="font-family: discord">NEWS</a>
+					</li>
+					<li style="list-style: none">
+						<a
+							href="https://discord.gg/jsmDKRBq5b"
+							style="font-family: discord"
+							>Support</a
+						>
+					</li>
+					<li style="list-style: none">
+						<a
+							href="https://canary.discord.com/api/oauth2/authorize?client_id=919123280705757204&permissions=8&scope=bot%20applications.commands"
+							style="font-family: discord; color: #43b581"
+							>INVITE</a
+						>
+					</li>
+				</ul>
+			</nav>
+			<h1 style="pointer-events: none; font-family: discord">MOYAIU</h1>
+		</header>
+		<section id="home">
+			<h1 class="moyaiu_title" style="font-family: discord">MOYAIU</h1>
+			<h2 id="moyaiu_subtitle" style="font-family: discord">
+				Privacy Policy📜
+			</h2>
+			<hr id="defaultSep" />
+			<div class="tos">
+				<h3>Last Updated: 20/01/2021</h3>
+				<h2>usage of data</h2>
+				<p>
+					The bot may use stored data, as defined below, for different
+					features including but not limited to: Leveling, Social
+					Credit and Server Settings. No usage of data outside of the
+					aformentioned cases will happen and the data is not shared
+					with anyone.
+				</p>
+
+				<h2>Stored Info</h2>
+				<p>The bot stores the following information:</p>
+				<li>
+					<code>guildID </code> containing the server ID this ID will
+					be stored once the bot joined, or after the level/social
+					credit system is enabled.
+				</li>
+				<li>
+					<code>userID </code> containing the userID this ID will be
+					stored after a message was sent with the level/socialcredit
+					system enabled.
+				</li>
+				<p>
+					Other non-critical information may be stored, like which
+					settings are enabled for a guild
+				</p>
+				<h2>Temporarely stored Information</h2>
+				<p>
+					The bot may <strong>Temporarily</strong> get some
+					information when using a commands(like a users current
+					presence). After the execution of a command finished, this
+					data will be dropped.
+				</p>
+				<h2>Removal of Data</h2>
+				<p>
+					Removal of the data can be requested through the support
+					server, or a dm to one of the staff members
+					(DaSussy#0362,Shid#5259). For servers, only an admin can
+					request a removal.
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
